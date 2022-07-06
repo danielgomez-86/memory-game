@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;
+}
+
+.grid {
+    width: 400px;
+    height: 300px;
+    padding: 3px 0 0 3px;
+    border: solid black 1px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+}
+
+.card {
+    width: 94px;
+    height: 94px;
+    border: solid black 1px;
+}
